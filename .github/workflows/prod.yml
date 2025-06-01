@@ -9,6 +9,7 @@ jobs:
   docker-build-and-push:
     name: Build and Push Docker Image to Docker Hub
     runs-on: ubuntu-latest
+    environment: DOCKER 
 
     steps:
       - name: Checkout source code
